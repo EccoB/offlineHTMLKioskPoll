@@ -1,0 +1,40 @@
+#block{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    visibility: hidden;
+    padding: 2em;
+    text-align: center;
+    
+}
+body{
+    padding:0.1em;
+}
+
+#questions button{
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 1em;
+    font-size: 2em;
+}
+
+#results{
+    visibility: hidden;
+    word-wrap:break-word;
+    max-width: 25em;
+}
+#results li{
+    word-wrap:break-word;
+}
+
+#statbutton{
+    margin: 5em;
+    margin-top: 50em;
+    background-color: lightgray;
+    border: 0;
+    font-size: 0.2em;
+}

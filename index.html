@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- This is a simple static website, displaying buttons a visitor can click to participate on your poll.
+	It is intended to be used on an tablet without internet connection that you can place somewhere.
+	The result can later be viewed directly on the page itself, including timestamps when a button was pressed.
+	For storing the results, only the local webstorage is used, no internet connection required.
+-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="simple.css">
+    <link rel="stylesheet" href="custom.css">
+    <script type="text/javascript" src="counter.js"></script>
+
+  </head>
+  <body>
+	<h1>Woher haben Sie von diesem Konzert gehört?</h1>
+
+    <div id="block">
+        <h2>Danke für das Abstimmen</h2>
+
+    </div>
+    
+    <!-- ----------- QUESTIONS ----------------  -->
+    <div id="questions">
+    
+        <button onclick="choiceMade(this,'social')">Soziale Medien</button>
+        <button onclick="choiceMade(this,'friends')">Freunde/Bekannte</button>
+        <button onclick="choiceMade(this,'homepage')">Homepage</button>
+        <button onclick="choiceMade(this,'adverts')">Werbung</button>
+        
+    
+    </div>
+
+
+    <!-- Show the statistics -->
+    <button id="statbutton" onclick="showStats()">Zeige Statistiken</button>
+    <div id="results">
+        <h3>Stats</h3>
+        <ul id="counterlist">
+
+        </ul>
+        <ul id="timestamplist">
+
+        </ul>
+
+    </div>
+
+    <script>
+ 
+    </script>
+
+  </body>
+</html>
