@@ -15,7 +15,7 @@ function createStatFromButtonID(id){
 }
 function createStatsBulk(){
     console.log("Creating List of stats");
-    var buttonlist=['social','friends','homepage','adverts'];
+    var buttonlist=['social','friends','homepage','adverts','other'];
     buttonlist.forEach(createStatFromButtonID);
 
 }
